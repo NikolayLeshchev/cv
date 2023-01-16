@@ -69,14 +69,12 @@ ul {
 }
 .position {
   color: #78bcc4;
-
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 .about__description + .about__description {
   margin-top: 10px;
 }
-
 .contacts-list-item__img,
 .skills-list-item__mark {
   height: 1.5rem;
@@ -96,7 +94,6 @@ ul {
   display: flex;
   align-items: center;
 }
-
 .education-list + .education-list {
   padding-top: 1.2rem;
 }
@@ -107,13 +104,10 @@ section + section {
   color: #f7f8f3;
   text-align: center;
 }
-
 .slider {
   width: 100%;
-
   overflow: hidden;
 }
-
 .slider-img {
   min-width: 100%;
 }

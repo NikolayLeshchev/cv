@@ -21,7 +21,6 @@ const sliderLine = document.querySelector(".slider-line");
 const sliderNext = document.querySelector(".slider-next");
 const sliderPrev = document.querySelector(".slider-prev");
 const sliderImg = document.querySelector(".slider-img");
-// const sliderCount = document.querySelectorAll(".slider-img");
 
 sliderNext.addEventListener("click", function () {
   offset = offset + sliderImg.clientWidth;

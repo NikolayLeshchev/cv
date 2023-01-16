@@ -1,281 +1,204 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Резюме</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header id="header">
-      <div class="container">
-        <div class="header-menu">
-          <div class="header-menu-icon"><span></span></div>
-          <nav class="header-menu-navigation">
-            <ul class="header-list-items">
-              <li class="header-list-item">
-                <a href="#about" class="header-list-item-link">About</a>
-              </li>
-              <li class="header-list-item">
-                <a href="#contacts" class="header-list-item-link">Contacts</a>
-              </li>
-              <li class="header-list-item">
-                <a href="#skills" class="header-list-item-link">Skills</a>
-              </li>
-              <li class="header-list-item">
-                <a href="#projects" class="header-list-item-link">Projects</a>
-              </li>
-              <li class="header-list-item">
-                <a href="#education" class="header-list-item-link">Education</a>
-              </li>
-              <li class="header-list-item">
-                <a href="#languages" class="header-list-item-link">Languages</a>
-              </li>
-            </ul>
-          </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Резюме</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="header-menu">
+        <div class="header-menu-icon"><span></span></div>
+        <nav class="header-menu-navigation">
+          <ul class="header-list-items">
+            <li class="header-list-item">
+              <a href="#about" class="header-list-item-link">About</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#contacts" class="header-list-item-link">Contacts</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#skills" class="header-list-item-link">Skills</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#projects" class="header-list-item-link">Projects</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#education" class="header-list-item-link">Education</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#languages" class="header-list-item-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <div class="container">
+      <section id="about">
+        <div class="about-head">
+          <img src="./img/me.jpg" alt="my-photo" class="my-photo">
+          <div class="about-head-text">
+            <h1 class="name">Leshchev Nikolay</h1>
+            <h2 class="position">Front-end developer</h2>
+            <p><span class="bold">Date of birth</span>: December 19, 2001</p>
+            <p><span class="bold">Location</span>: Belarus, Minsk</p>
+          </div>
         </div>
-      </div>
-    </header>
-    <main id="main">
-      <div class="container">
-        <section id="about">
-          <div class="about-head">
-            <img src="./img/me.jpg" alt="my-photo" class="my-photo" />
-            <div class="about-head-text">
-              <h1 class="name">Leshchev Nikolay</h1>
-              <h2 class="position">Front-end developer</h2>
-              <p><span class="bold">Date of birth</span>: December 19, 2001</p>
-              <p><span class="bold">Location</span>: Belarus, Minsk</p>
-            </div>
+        <p class="about__description">
+          I'm <span class="bold">Nikolay</span>. I'm <span class="bold">21 years old</span> and I'm <span class="bold">a
+            student of BSUIR</span>. I spent too much time looking for what I want to do in life and what I like. Since
+          June last year, I began to actively study the front-end, because it is interesting and gives a good
+          opportunity to develop and grow in the profession.
+        </p>
+        <p class="about__description">
+          I don't have commercial development experience, but <span class="bold">I have more than half a year of
+            front-end development on educational projects</span>. Now I'm studying and I want to work as a front-end
+          developer, but
+          in 3-4 years <span class="bold">I want to grow to a full-stack</span> specialist.
+        </p>
+      </section>
+      <section id="contacts">
+        <h3 class="section-title">Contacts</h3>
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <img src="./img/github.svg" alt="Github" class="contacts-list-item__img">
+            GitHub:
+            <a class="contacts-list-item__link" href="https://github.com/NikolayLeshchev">
+              NikolayLeshchev</a>
+          </li>
+          <li class="contacts-list-item">
+            <img src="./img/telegram.svg" alt="Telegram" class="contacts-list-item__img">Telegram:
+            <a class="contacts-list-item__link" href="https://t.me/ne_Nik">@ne_Nik</a>
+          </li>
+          <li class="contacts-list-item">
+            <img src="./img/linkedin.svg" alt="Linkedin" class="contacts-list-item__img">LinkedIn:
+            <a class="contacts-list-item__link" href="https://www.linkedin.com/in/nikolayleshchev/">nikolayleshchev</a>
+          </li>
+          <li class="contacts-list-item">
+            <img src="./img/email.svg" alt="email" class="contacts-list-item__img">Email:
+            <a class="contacts-list-item__link" href="mailto:kolyaleshiov@gmail.com">
+              kolyaleshiov@gmail.com</a>
+          </li>
+          <li class="contacts-list-item">
+            <img src="./img/phone.svg" alt="phone" class="contacts-list-item__img">Phone:
+            <a class="contacts-list-item__link" href="tel:+375292132431">
+              +375 29 213-24-31</a>
+          </li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h3 class="section-title">Skills</h3>
+        <ul class="skills-list">
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Good knowledge of HTML,
+            CSS, JS
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Understanding how the
+            Internet and websites work
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Experience with Git and
+            Github
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Good working experience
+            with Figma
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Not big experience with
+            Trello, JIRA, Bitrix24
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Small experience in BEM
+            methodology, React (try to learn)
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">Worked with Wordpress,
+            OpenCart
+          </li>
+          <li class="skills-list-item">
+            <img src="./img/check-mark.svg" alt="check-mark" class="skills-list-item__mark">
+            Good understanding of SEO website optimization
+          </li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h3 class="section-title">Projects</h3>
+        <div class="slider">
+          <div class="slider-line">
+            <img class="slider-img" src="./img/travel.png" alt="Travel">
+            <img class="slider-img" src="./img/plants.png" alt="Plants">
+            <img class="slider-img" src="./img/forest.png" alt="Forest travel">
+            <img class="slider-img" src="./img/cars.png" alt="Cars rental">
           </div>
+        </div>
+        <div class="slider-buttons">
+          <button class="slider-prev">Previous</button>
+          <button class="slider-next">Next</button>
+        </div>
 
-          <p class="about__description">
-            I'm <span class="bold">Nikolay</span>. I'm
-            <span class="bold">21 years old</span> and I'm
-            <span class="bold">a student of BSUIR</span>. I spent too much time
-            looking for what I want to do in life and what I like. Since June
-            last year, I began to actively study the front-end, because it is
-            interesting and gives a good opportunity to develop and grow in the
-            profession.
-          </p>
-          <p class="about__description">
-            I don't have commercial development experience, but
-            <span class="bold"
-              >I have more than half a year of front-end development on
-              educational projects</span
-            >. Now I'm studying and I want to work as a front-end developer, but
-            in 3-4 years
-            <span class="bold">I want to grow to a full-stack</span> specialist.
-          </p>
-        </section>
-        <section id="contacts">
-          <h3 class="section-title">Contacts</h3>
-          <ul class="contacts-list">
-            <li class="contacts-list-item">
-              <img
-                src="./img/github.svg"
-                alt="Github"
-                class="contacts-list-item__img"
-              />
-              GitHub:
-              <a
-                class="contacts-list-item__link"
-                href="https://github.com/NikolayLeshchev"
-              >
-                NikolayLeshchev</a
-              >
-            </li>
-            <li class="contacts-list-item">
-              <img
-                src="./img/telegram.svg"
-                alt="Telegram"
-                class="contacts-list-item__img"
-              />Telegram:
-              <a class="contacts-list-item__link" href="https://t.me/ne_Nik"
-                >@ne_Nik</a
-              >
-            </li>
-            <li class="contacts-list-item">
-              <img
-                src="./img/linkedin.svg"
-                alt="Linkedin"
-                class="contacts-list-item__img"
-              />LinkedIn:
-              <a
-                class="contacts-list-item__link"
-                href="https://www.linkedin.com/in/nikolayleshchev/"
-                >nikolayleshchev</a
-              >
-            </li>
-            <li class="contacts-list-item">
-              <img
-                src="./img/email.svg"
-                alt="email"
-                class="contacts-list-item__img"
-              />Email:
-              <a
-                class="contacts-list-item__link"
-                href="mailto:kolyaleshiov@gmail.com"
-              >
-                kolyaleshiov@gmail.com</a
-              >
-            </li>
-            <li class="contacts-list-item">
-              <img
-                src="./img/phone.svg"
-                alt="phone"
-                class="contacts-list-item__img"
-              />Phone:
-              <a class="contacts-list-item__link" href="tel:+375292132431">
-                +375 29 213-24-31</a
-              >
-            </li>
-          </ul>
-        </section>
-        <section id="skills">
-          <h3 class="section-title">Skills</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Good knowledge of HTML, CSS, JS
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Understanding how the Internet and websites work
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Experience with Git and Github
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Good working experience with Figma
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Not big experience with Trello, JIRA, Bitrix24
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Small experience in BEM methodology, React (try to learn)
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />Worked with Wordpress, OpenCart
-            </li>
-            <li class="skills-list-item">
-              <img
-                src="./img/check-mark.svg"
-                alt="check-mark"
-                class="skills-list-item__mark"
-              />
-              Good understanding of SEO website optimization
-            </li>
-          </ul>
-        </section>
-        <section id="projects">
-          <h3 class="section-title">Projects</h3>
-          <div class="slider">
-            <div class="slider-line">
-              <img class="slider-img" src="./img/travel.png" alt="Travel" />
-              <img class="slider-img" src="./img/plants.png" alt="Plants" />
-              <img
-                class="slider-img"
-                src="./img/forest.png"
-                alt="Forest travel"
-              />
-              <img class="slider-img" src="./img/cars.png" alt="Cars rental" />
-            </div>
-          </div>
-          <div class="slider-buttons">
-            <button class="slider-prev">Previous</button>
-            <button class="slider-next">Next</button>
-          </div>
+        <p>
+          More information about my projects you can see in my
+          <a href="https://github.com/NikolayLeshchev/my_portfolio">portfolio</a>
+        </p>
+      </section>
+      <section id="education">
+        <h3 class="section-title">Education</h3>
+        <ul class="education-list">
+          <li>
+            <span class="bold">Organization</span>: Belarusian State
+            University of Informatics and Radioelectronics (BSUIR)
+          </li>
+          <li><span class="bold">Date</span>: Sep 2019 – June 2023</li>
+          <li>
+            <span class="bold">Qualification</span>: Marketer - programmer
+          </li>
+          <li><span class="bold">Speciality</span>: Digital-marketing</li>
+        </ul>
+        <ul class="education-list">
+          <li>
+            <span class="bold">Organization</span>: The Rolling Scopes School
+          </li>
+          <li><span class="bold">Date</span>: June 2022 – Sep 2022</li>
+          <li>
+            <span class="bold">Course</span>:
+            <a href="https://rs.school/js-stage0/">JS/FE PRE-SCHOOL 2022G2 (JAVASCRIPT)</a>
+          </li>
+          <li>
+            <a href="https://app.rs.school/certificate/kef63p4z"><span class="bold">Certificate</span></a>
+          </li>
+        </ul>
+      </section>
+      <section id="languages">
+        <h3 class="section-title">Languages</h3>
+        <ul>
+          <li><span class="bold">Russian</span> - native</li>
+          <li>
+            <span class="bold">English</span> - B1 (<a
+              href="https://cert.str.by/streamline-certificate/EC272A601C76CC6B7CF3ED927D76E9CC">Streamline Languages
+              School - CERF B1</a>)
+          </li>
+          <li><span class="bold">Belarusian</span> - B1</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <p class="footer-content">© Nikolay Leshchev, 2023</p>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
 
-          <p>
-            More information about my projects you can see in my
-            <a href="https://github.com/NikolayLeshchev/my_portfolio"
-              >portfolio</a
-            >
-          </p>
-        </section>
-        <section id="education">
-          <h3 class="section-title">Education</h3>
-          <ul class="education-list">
-            <li>
-              <span class="bold">Organization</span>: Belarusian State
-              University of Informatics and Radioelectronics (BSUIR)
-            </li>
-            <li><span class="bold">Date</span>: Sep 2019 – June 2023</li>
-            <li>
-              <span class="bold">Qualification</span>: Marketer - programmer
-            </li>
-            <li><span class="bold">Speciality</span>: Digital-marketing</li>
-          </ul>
-          <ul class="education-list">
-            <li>
-              <span class="bold">Organization</span>: The Rolling Scopes School
-            </li>
-            <li><span class="bold">Date</span>: June 2022 – Sep 2022</li>
-            <li>
-              <span class="bold">Course</span>:
-              <a href="https://rs.school/js-stage0/"
-                >JS/FE PRE-SCHOOL 2022G2 (JAVASCRIPT)</a
-              >
-            </li>
-            <li>
-              <a href="https://app.rs.school/certificate/kef63p4z"
-                ><span class="bold">Certificate</span></a
-              >
-            </li>
-          </ul>
-        </section>
-        <section id="languages">
-          <h3 class="section-title">Languages</h3>
-          <ul>
-            <li><span class="bold">Russian</span> - native</li>
-            <li>
-              <span class="bold">English</span> - B1 (<a
-                href="https://cert.str.by/streamline-certificate/EC272A601C76CC6B7CF3ED927D76E9CC"
-                >Streamline Languages School - CERF B1</a
-              >)
-            </li>
-            <li><span class="bold">Belarusian</span> - B1</li>
-          </ul>
-        </section>
-      </div>
-    </main>
-    <footer id="footer">
-      <div class="container">
-        <p class="footer-content">© Nikolay Leshchev, 2023</p>
-      </div>
-    </footer>
-    <script src="./js/index.js"></script>
-  </body>
 </html>
