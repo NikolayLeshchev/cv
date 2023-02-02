@@ -72,7 +72,7 @@ ul {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-.about__description + .about__description {
+.about-description + .about-description {
   margin-top: 10px;
 }
 .contacts-list-item__img,
